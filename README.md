@@ -5,9 +5,6 @@
 ```
 root
 ├── automation-task/
-│   ├── .github/
-|   |   ├── workflows/
-|   |   |   ├── playwright.yml
 │   ├── base/
 |   |   ├── base_page.ts
 │   ├── pages/
@@ -40,8 +37,6 @@ root
 ```
 
 - `automation-task/`:  Main directory containing the Playwright test automation framework files.
-    - `.github/workflows/`: Contains GitHub Actions workflow files for CI/CD.
-        - `playwright.yml`: Defines the CI/CD pipeline for running tests and other automated tasks.
     - `base/`: Contains base classes and common utilities for the testing framework.
         - `base_page.ts`: Defines the BasePage class with common methods used across different page objects.
     - `pages/`: Directory containing page-specific modules.
