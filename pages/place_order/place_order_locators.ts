@@ -1,0 +1,21 @@
+export const PlaceOrderLocators = {
+    deliveryAddressLocator: '#address_delivery',
+    commentAboutOrderTextarea: '.form-control',
+    placeOrderButton: '.btn.btn-default.check_out',
+    nameOnCardInputField: '[data-qa="name-on-card"]',
+    cardNumberInputField: '[data-qa="card-number"]',
+    cvcInputField: '[data-qa="cvc"]',
+    expirationMonthInputField: '[data-qa="expiry-month"]',
+    expirationYearInputField: '[data-qa="expiry-year"]',
+    payAndConfirmOrderButton: '#submit',
+    successMessageLocator: '#success_message div',
+    confirmedOrderMessageLocator: '//p[contains(text(), "Congratulations! Your order has been confirmed!")]',
+    addToCartButton: 'a.btn.btn-default.add-to-cart',
+    viewCartButton: 'a[href="/view_cart"]:visible',
+    addressDetailsFirstName: '.address_firstname.address_lastname',
+    deliveryAddressDetails: '.address_address1.address_address2',
+    deliveryAddressDetailsCountry: '.address_country_name',
+    deliveryAddressDetailsPhone: '.address_phone',
+    deliveryAddressDetailsStateZip: '.address_city.address_state_name.address_postcode',
+    payAndConfirmOrderSuccessMessageLocator: '[id="success_message"] div'
+}
